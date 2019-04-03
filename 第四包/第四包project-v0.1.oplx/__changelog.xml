@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="沈傲乾" date="2019-04-03T04:41:40.397Z" timestamp="2019-04-03T04:41:40.397Z">
+    <change idref="t4" to="t-1" to-position="1" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t4" attribute="internalPrerequisitesString" type="string" to="1FS"/>
+      <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-09T00:15:00.000Z"/>
+      <change idref="t4" attribute="title" type="string" to="创建虚拟机"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="2" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t5" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t5" attribute="internalPrerequisitesString" type="string" to="4FS"/>
+      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-12T00:15:00.000Z"/>
+      <change idref="t5" attribute="title" type="string" to="初步确定算法"/>
+    </change>
+    <change idref="t12" to="t-1" to-position="3" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t12" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t12" attribute="internalPrerequisitesString" type="string" to="4FS, 5FS"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2019-05-10T01:00:00.000Z"/>
+      <change idref="t12" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="title" type="string" to="编写客户端"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="4" resolved="yes">
+      <change idref="t6" attribute="effort" type="real" from="28800" to="172800"/>
+      <change idref="t6" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t6" attribute="internalPrerequisitesString" type="string" to="4FS"/>
+      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-12T00:15:00.000Z"/>
+      <change idref="t6" attribute="title" type="string" to="调整接口"/>
+    </change>
+    <change idref="t7" to="t-1" to-position="5" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="172800"/>
+      <change idref="t7" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t7" attribute="internalPrerequisitesString" type="string" to="6FS"/>
+      <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-22T00:15:00.000Z"/>
+      <change idref="t7" attribute="title" type="string" to="创建数据库"/>
+    </change>
+    <change idref="t11" to="t-1" to-position="6" resolved="yes">
+      <change idref="t11" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t11" attribute="internalAssignments" type="string" from="" to="5"/>
+      <change idref="t11" attribute="internalPrerequisitesString" type="string" to="7FS"/>
+      <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-30T00:15:00.000Z"/>
+      <change idref="t11" attribute="title" type="string" to="树莓派调试"/>
+    </change>
+    <change idref="t8" to="t-1" to-position="7" resolved="yes">
+      <change idref="t8" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t8" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t8" attribute="internalPrerequisitesString" type="string" to="5FS, 11FS"/>
+      <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2019-05-10T01:00:00.000Z"/>
+      <change idref="t8" attribute="title" type="string" to="细化算法"/>
+    </change>
+    <change idref="t9" to="t-1" to-position="8" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t9" attribute="internalPrerequisitesString" type="string" to="8FS"/>
+      <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-07T01:00:00.000Z"/>
+      <change idref="t9" attribute="title" type="string" to="实际调试"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="确定云服务提供商" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-02T00:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="沈傲乾" date="2019-04-03T04:41:40.396Z" timestamp="2019-04-03T04:41:40.396Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" from="" to="第三包"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" from="" to="第六包"/>
+    </change>
+    <change idref="r5" to="r-1" to-position="3" resolved="yes">
+      <change idref="r5" attribute="name" type="string" from="" to="第七包"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="第四包" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="沈傲乾" date="2019-04-03T04:41:40.396Z" timestamp="2019-04-03T04:41:40.396Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2019-04-02T00:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="¥1,234.56" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
